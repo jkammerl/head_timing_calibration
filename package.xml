@@ -1,0 +1,39 @@
+<package>
+  <name>head_time_calibration_tools</name>
+  <version>0.0.1</version>
+    <description>
+     Tools to estimate the latency in depth image capturing using openni2. 
+    </description>
+
+  <maintainer email="jkammerl@willowgarage.com">Julius Kammerl</maintainer>
+
+  <license>BSD</license>
+
+  <author email="jkammerl@willowgarage.com">Julius Kammerl</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf_conversions</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>pointcloud_floor_filter</build_depend>
+  
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>message_filters</run_depend>
+  <run_depend>tf_conversions</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>tf2_ros</run_depend>
+  <run_depend>pointcloud_floor_filter</run_depend>
+</package>
